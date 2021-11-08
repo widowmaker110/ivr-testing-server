@@ -1,0 +1,21 @@
+[
+	{
+		"expect":
+		[
+			"Hello, and welcome to the awesome phone center, press 1 for sales."
+		],
+		"then": "press=1",
+		"timeout": 3
+	},
+	{
+		"expect":
+		[
+			"who is your favorite programmer?",
+			"who is your favorite programmer",
+			"Who is your favorite programer?",
+			"Who is your favorite programer"
+		],
+		"then": "say=alan turing",
+		"timeout": 3
+	}
+]
